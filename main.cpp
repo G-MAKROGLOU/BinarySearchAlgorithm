@@ -90,7 +90,7 @@ int binarySearchAlgorithmDescending(int value, int arr[], int sizeOfArray){
     return -1;
 }
 
-//Function declaration: Function that recursively calls itself in case the number the user want to find is not found in the array.
+//Function declaration: Function that recursively calls itself in case the number the user wants to find is not found in the array.
 //Because the binary search algorithm depends on the way the array is sorted, there is a function for both cases. This one, calls
 // binarySearchAlgorithmAscending(int value, int arr[], int sizeOfArray)
 void inCaseOfNotFoundAscending(int arr[], int arraySize){
@@ -163,7 +163,7 @@ int main() {
     printArray(integerArray, arraySize);
 
 
-    //Function call: wayToSort(int arr[], int sizeOfArray) -> This function calls triggers the corresponding to the user's choice
+    //Function call: wayToSort(int arr[], int sizeOfArray) -> This function call, triggers the corresponding to the user's choice
     //functionality of the program. If the user chooses to sort the array in ascending order the binarySearchAlgorithmAscending(int arr[], int arraySize)
     //method will be called alongside inCaseOfNotFoundAscending(int arr[], int arraySize) as a "safety" measure. If the user chooses to sort the array in
     //descending order the binarySearchAlgorithmDescending(int arr[], int arraySize)
